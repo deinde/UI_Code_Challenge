@@ -1,0 +1,86 @@
+* {
+  border-sizing: border-box; }
+
+body {
+  background: #fff; }
+
+img {
+  position: relative;
+  width: 33%;
+  max-width: 250px;
+  float: left;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 7px; }
+
+ul li {
+  list-style-type: none; }
+ul .list-group-item {
+  padding: 0px; }
+  ul .list-group-item h1 {
+    margin: 0;
+    margin-left: 2em;
+    margin-top: 19px;
+    padding: 0px;
+    font-size: 3em; }
+  ul .list-group-item p {
+    margin-bottom: 0px;
+    margin-left: 6em;
+    margin-top: 0px; }
+
+p {
+  color: #000; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container {
+  height: 1000px; }
+  .container input {
+    margin-top: 1em;
+    height: 3.5em; }
+    .container input:focus {
+      border-color: #cdcdcd; }
+  .container form button {
+    background: #fff;
+    color: #000;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eeeeee; }
+    .container form button:hover {
+      background: #fff;
+      color: #000;
+      border-color: #cdcdcd; }
+    .container form button:focus {
+      border-color: #cdcdcd; }
+  .container .card {
+    margin-top: 1em; }
+    .container .card .list-group-item {
+      background: #d3d3d3; }
+    .container .card .list-group-item:nth-child(2) {
+      border-top: 1px dashed red; }
+    .container .card .list-group-item:nth-child(3) {
+      border-top: 1px dashed red; }
+
+@media only screen and (max-width: 760px) {
+  .container {
+    width: 100%;
+    padding: 0; }
+    .container .card {
+      width: 100%; }
+      .container .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        float: none; }
+      .container .card h1 {
+        padding: 0;
+        margin: 0; }
+      .container .card p {
+        padding: 0;
+        margin: 0; } }
+
+/*# sourceMappingURL=style.css.map */
